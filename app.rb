@@ -6,6 +6,7 @@ set :bind, '0.0.0.0'
 set :port, 8080
 
 configure do
+  puts "Hello world ... @@@"
   puts "Running app file"
   puts "Create database..."
   %x"rake db:create"
